@@ -11,7 +11,7 @@ Working on an awk command to replace pup.
 Start the archive process in 3 commands:
 
 ```bash
-git clone https://sixteenmillimeter/frameworks_archiver.git
+git clone https://github.com/sixteenmillimeter/frameworks_archiver.git
 cd frameworks_archive
 sh archive.sh
 ```
