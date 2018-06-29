@@ -8,4 +8,5 @@ Start the archive process in 3 commands:
 ```bash
 git clone https://sixteenmillimeter/frameworks_archiver.git
 cd frameworks_archive
-sh archive.sh```
+sh archive.sh
+```
