@@ -1,7 +1,9 @@
 # frameworks_archiver
 FRAMEWORKS listserv archive script
 
-To run this script you need [pup](https://github.com/ericchiang/pup) installed. It also uses wget and grep.
+To run this script you need [pup](https://github.com/ericchiang/pup) installed. It also uses curl and grep.
+
+Working on an awk command to replace pup, here.
 
 Start the archive process in 3 commands:
 
