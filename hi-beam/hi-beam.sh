@@ -20,8 +20,8 @@ if [ ! -f links.txt ]; then
 	rm all.txt clean.txt index.html
 fi 
 while read p; do
-  #curl -O $p
-  wget -r -np -l 1 -w 5 -A html "$p"
+  #wait 10 seconds between requests
+  wget -r -np -l 1 -w 10 -A html "$p"
   sleep 5 #to be nice
 done < links.txt
 
