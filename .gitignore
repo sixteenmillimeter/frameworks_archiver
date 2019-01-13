@@ -1,0 +1,5 @@
+frameworks/*.txt.gz
+hi-beam/*.html 
+hi-beam/**/*.html 
+archive-org/FRAMEWORKS
+*.Parent

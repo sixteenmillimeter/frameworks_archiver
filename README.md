@@ -4,14 +4,14 @@ FRAMEWORKS listserv archive script. Downloads all txt.gz copies of the FRAMEWORK
 
 Still looking for 1996-2002.
 
-To run this script you need [pup](https://github.com/ericchiang/pup) installed. It also uses curl and grep.
-
-Working on an awk command to replace pup.
+This script uses `curl`, `grep`, `cut` and `awk`.
 
 Start the archive process in 3 commands:
 
 ```bash
 git clone https://github.com/sixteenmillimeter/frameworks_archiver.git
 cd frameworks_archiver
-sh archive.sh
+bash archive.sh
 ```
+
+Delete the "links.txt" file in any of the directories to have the script regenerate.
